@@ -1,0 +1,103 @@
+.slider{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    min-height: 346px;
+    max-width: 1200px;
+   
+    gap: 0 20px;
+    padding-inline: 120px;
+
+}
+@font-face{
+    font-family: 'Gilroy';
+    src: url(./font/Gilroy-Bold.ttf);
+}
+body{
+    font-family: 'Gilroy';
+}
+
+.slider .box1{
+    width: 176px;
+    height: 226px;
+    background-color: var(--Gray-1, #F3F2FF);
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0;
+}
+.slider .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+
+}
+.slider p{
+    width: 85px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.restoranner{
+    
+    display: flex;
+    min-height: 410px;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    gap: 1px 30px;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 151px;
+    margin-top: 50px;
+
+}
+.restoran{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 30px 0;
+    width: 359.3px;
+    height: 120px;   
+}
+h1{
+    display: flex;
+font-weight: 700;
+font-style: Bold;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+vertical-align: middle;
+color: var(--White, #FFFFFF);
+
+}
+.arkx1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+.arkx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 0 8px;
+}
+.restoranner p{
+   
+  padding-inline: 18px;
+color: var(--White, #FFFFFF);
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
