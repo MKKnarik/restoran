@@ -37,56 +37,8 @@ const nameText = [
         acenka: 'img/acenka.png',
         text: 'Где поесть рамен',
     },
-    {
-        img: 'img/sup.png',
-        imgs: 'img/astxer.png',
-        acenka: 'img/acenka.png',
-        text: 'Где поесть рамен',
-    },
-    {
-        img: 'img/sup.png',
-        imgs: 'img/astxer.png',
-        acenka: 'img/acenka.png',
-        text: 'Где поесть рамен',
-    },
-    {
-        img: 'img/sup.png',
-        imgs: 'img/astxer.png',
-        acenka: 'img/acenka.png',
-        text: 'Где поесть рамен',
-    },
-    {
-        img: 'img/sup.png',
-        imgs: 'img/astxer.png',
-        acenka: 'img/acenka.png',
-        text: 'Где поесть рамен',
-    },
 
 ]
-const slider = document.querySelector('.slider');
-nameText.map((array) => {
-    const div = document.createElement('div');
-    div.className = 'box1'
-    const box = document.createElement('div');
-    box.className = 'box';
-    const nkar1 = document.createElement('img');
-    nkar1.src = array.img;
-    const nkar2 = document.createElement('img');
-    nkar2.src = array.imgs;
-    const nkar3 = document.createElement('img')
-    nkar3.src = array.acenka;
-    const p = document.createElement('p');
-    p.textContent = array.text;
-
-    slider.appendChild(div);
-    div.appendChild(nkar1);
-    div.appendChild(box);
-    box.appendChild(nkar2);
-    box.appendChild(nkar3);
-    div.appendChild(p);
-
-
-})
 
 const nameText1 = [
     {
@@ -152,6 +104,33 @@ const nameText1 = [
         anun: 'Steak It Easy ',
         background: 'img/nkar9.jpg',
     },];
+
+    
+const slider = document.querySelector('.slider');
+nameText.map((array) => {
+    const div = document.createElement('div');
+    div.className = 'box1'
+    const box = document.createElement('div');
+    box.className = 'box';
+    const nkar1 = document.createElement('img');
+    nkar1.src = array.img;
+    const nkar2 = document.createElement('img');
+    nkar2.src = array.imgs;
+    const nkar3 = document.createElement('img')
+    nkar3.src = array.acenka;
+    const p = document.createElement('p');
+    p.textContent = array.text;
+
+    slider.appendChild(div);
+    div.appendChild(nkar1);
+    div.appendChild(box);
+    box.appendChild(nkar2);
+    box.appendChild(nkar3);
+    div.appendChild(p);
+
+
+})
+
 const restoranner = document.querySelector('.restoranner');
 nameText1.map((array) => {
     const div = document.createElement('div');
